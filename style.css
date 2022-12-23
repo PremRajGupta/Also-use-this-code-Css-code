@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&family=Work+Sans:wght@400;500&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --heading: rgb(0 10 45);
+    --para: #777;
+    --para: #e4e4e4;
+    --white: #fff;
+    --helper: #90ff84;
+    --helper-tint: #f3f4ff;
+    --bg: rgb(249 249 255);
+    --gradient: linear-gradient(0deg, rgb(165, 255, 132)0% rgb(98 189 252)100%);
+    --gradientSupport: -webkit-linear-gradient(0deg, rgb(132, 255, 142)0% rgb(98 189 252)100%);
+    --shadow: 0px 0px 20px 0px rgb(132 255 142/20%);
+}
+html{
+    font-size: 62.5%;
+    /* 1rem=10px;*/
+}
+h1,h2,h3,h4{
+    font-family: 'Sevillana', cursive;
+}
+h1{
+    color: var(--heading);
+    font-size: 6rem;
+    font-weight: 600;
+}
+img{
+    size: 200px;
+}
